@@ -7,7 +7,7 @@ function PostsList(){
 
     return (
         <>
-            {/* line 25-26: transform an array into a JSX elements */}
+            {/* line 13-14: transform an array into a JSX elements */}
             {posts.length > 0 ? 
                 <ul className={classes.posts}>
                     {posts.map((post) => 

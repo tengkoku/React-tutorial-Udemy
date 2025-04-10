@@ -2,7 +2,7 @@ import classes from './NewPost.module.css';
 import Modal from '../components/Modal';
 import { Link, Form, redirect } from 'react-router-dom';
 
-function NewPost(props) {
+function NewPost() {
 
     // const stateData = useState(''); //always exactly 2 elements
     // stateData[0] //current value
